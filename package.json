@@ -28,6 +28,7 @@
 	"homepage": "https://github.com/sdk-group/iris-service-code-registry#readme",
 	"devDependencies": {
 		"babel-preset-node5": "^10.3.0",
+		"Couchbird": "git+https://github.com/YuuKohaku/Couchbird.git",
 		"chai": "^3.4.1",
 		"gulp": "^3.9.0",
 		"gulp-babel": "^6.1.1",
