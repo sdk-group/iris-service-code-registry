@@ -17,14 +17,12 @@ class CodeRegistry {
 	actionMakePin({
 		prefix
 	}) {
-		console.log("TODO: GET ENTRIES", prefix);
 		return this.pin.make(prefix);
 	}
 
 	actionMakeLabel({
 		date, prefix
 	}) {
-		console.log("TODO: GET ENTRIES", prefix, date);
 		return this.label.make(prefix, date);
 	}
 }
