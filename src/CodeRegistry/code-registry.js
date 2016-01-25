@@ -15,17 +15,17 @@ class CodeRegistry {
 
 	//API
 	actionMakePin({
-		date, prefix
+		prefix
 	}) {
-		console.log("TODO: GET ENTRIES", query);
-		return Promise.resolve(true);
+		console.log("TODO: GET ENTRIES", prefix);
+		return this.pin.make(prefix);
 	}
 
 	actionMakeLabel({
 		date, prefix
 	}) {
-		console.log("TODO: GET ENTRIES", query);
-		return Promise.resolve(true);
+		console.log("TODO: GET ENTRIES", prefix, date);
+		return this.label.make(prefix, date);
 	}
 }
 
