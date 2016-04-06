@@ -22,9 +22,10 @@ class CodeRegistry {
 
 	actionMakeLabel({
 		date,
-		prefix
+		prefix,
+		office
 	}) {
-		return this.label.make(prefix, date);
+		return this.label.make(prefix, office, date);
 	}
 }
 
