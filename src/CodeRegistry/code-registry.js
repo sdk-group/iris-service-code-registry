@@ -21,7 +21,8 @@ class CodeRegistry {
 	}
 
 	actionMakeLabel({
-		date, prefix
+		date,
+		prefix
 	}) {
 		return this.label.make(prefix, date);
 	}
