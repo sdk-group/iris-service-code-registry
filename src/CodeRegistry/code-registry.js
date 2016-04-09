@@ -1,11 +1,11 @@
 'use strict'
 
-let emitter = require("global-queue");
+
 let code = require("iris-code-util");
 
 class CodeRegistry {
 	constructor() {
-		this.emitter = emitter;
+		this.emitter = message_bus;
 	}
 
 	init() {
