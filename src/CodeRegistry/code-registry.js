@@ -25,7 +25,8 @@ class CodeRegistry {
 		prefix,
 		office
 	}) {
-		return this.label.make(prefix, office, date);
+		return this.label.make(prefix, office, date)
+			.then(res => _.toString(res));
 	}
 }
 
