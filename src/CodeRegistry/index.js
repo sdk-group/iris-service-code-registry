@@ -9,6 +9,7 @@ let tasks = [];
 
 module.exports = {
 	module: require('./code-registry.js'),
+	name: 'code-registry',
 	permissions: [],
 	exposed: true,
 	tasks: tasks,
